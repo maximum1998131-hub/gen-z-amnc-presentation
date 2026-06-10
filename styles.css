@@ -1634,7 +1634,7 @@ h3 {
 }
 
 .cta-card {
-  min-height: clamp(16.2rem, 20vw, 20.8rem);
+  min-height: clamp(18.4rem, 23.8vw, 24rem);
   padding: clamp(1.45rem, 2vw, 2.12rem);
   border: 1px solid var(--dark-line);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.085), rgba(255, 255, 255, 0.04));
@@ -1644,17 +1644,12 @@ h3 {
 .cta-card h3 {
   max-width: none;
   margin-bottom: 0.75rem;
-  font-size: clamp(1.12rem, 1.3vw, 1.36rem);
+  font-size: clamp(1.05rem, 1.18vw, 1.22rem);
 }
 
 .card-purpose {
   margin-bottom: 1.15rem;
   color: rgba(224, 233, 236, 0.76);
-}
-
-.cta-card > p:not(.section-label):not(.card-purpose):not(.cta-line) {
-  color: rgba(224, 233, 236, 0.76);
-  font-size: clamp(0.92rem, 1.04vw, 1.08rem);
 }
 
 .cta-card li {
@@ -1679,11 +1674,9 @@ h3 {
 }
 
 .closing-sentence {
-  position: relative;
-  z-index: 1;
-  max-width: 64rem;
+  max-width: 58rem;
   margin: 0;
-  font-size: clamp(1.02rem, 1.22vw, 1.28rem);
+  font-size: clamp(1rem, 1.2vw, 1.24rem);
   font-weight: 470;
   line-height: 1.42;
 }
